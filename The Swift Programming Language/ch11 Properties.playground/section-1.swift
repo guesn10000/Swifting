@@ -182,6 +182,8 @@ SomeClass.computedTypeProperty
 SomeStructure.storedTypeProperty
 SomeStructure.storedTypeProperty = "Another value."
 SomeStructure.storedTypeProperty
+var someInstance = SomeClass()
+//someInstance.computedTypeProperty // 错误，不能用instance来调用type properties
 
 struct AudioChannel {
     static let thresholdLevel = 10
